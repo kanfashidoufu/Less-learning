@@ -1,0 +1,40 @@
+@import "variables";
+@import "mixins";
+
+#header {
+	background-color: @light-blue;
+	display: block;
+	color: @nice-blue; 
+	content: @@var;
+	height: @minheight;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 30px;
+	text-align: center;
+	font-size: -webkit-xxx-large;
+	.border-radius(4px);
+	.box-shadow(2px, 5px);
+	.mixin(@switch, #888);
+	.mixin(#ddd);
+}
+.button-group {
+	margin: 55px;
+	.default {
+		color: @default-skin-color;
+	}
+	.black {
+		color: @black-skin-color;
+	}
+	.grey {
+		color: @grey-skin-color;
+	}
+	.green {
+		color: @green-skin-color;
+	}
+	.yellow {
+		color: @yellow-skin-color;
+	}
+	.red {
+		color: @red-skin-color;
+	}
+}

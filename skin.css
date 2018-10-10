@@ -1,0 +1,22 @@
+body.skin-default {
+  background-color: #3c8dbc;
+}
+body.skin-black {
+  background-color: #000;
+}
+body.skin-black #header {
+  background-color: white;
+  color: black;
+}
+body.skin-grey {
+  background-color: #d2d6de;
+}
+body.skin-green {
+  background-color: #00a65a;
+}
+body.skin-yellow {
+  background-color: #f39c12;
+}
+body.skin-red {
+  background-color: #dd4b39;
+}

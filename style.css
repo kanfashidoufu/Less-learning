@@ -1,0 +1,42 @@
+#header {
+  background-color: #7da5cf;
+  color: #5B83AD;
+  content: "I am wangning";
+  height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: -webkit-xxx-large;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 2px 5px 1px #000;
+  -moz-box-shadow: 2px 5px 1px #000;
+  -webkit-box-shadow: 2px 5px 1px #000;
+  color: #6f6f6f;
+  display: block;
+  background-color: black;
+  color: #ddd;
+}
+.button-group {
+  margin: 55px;
+}
+.button-group .default {
+  color: #3c8dbc;
+}
+.button-group .black {
+  color: #000;
+}
+.button-group .grey {
+  color: #d2d6de;
+}
+.button-group .green {
+  color: #00a65a;
+}
+.button-group .yellow {
+  color: #f39c12;
+}
+.button-group .red {
+  color: #dd4b39;
+}
